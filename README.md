@@ -1,6 +1,6 @@
 # Aoe_SuffixFix
 
-This is a fix for catelog and product url suffix handling in Magento CE 1.8.0.0-alpha1 and Magento EE 1.13
+This is a fix for catalog and product url suffix handling in Magento CE 1.8.0.0-alpha1 and Magento EE 1.13
 
 It is not possible to add a leading '.' in System > Configuration > Catalog > Catalog> Search Engine Optimizations > Product URL Suffix and Category URL Suffix.
 
