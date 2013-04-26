@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Aoe_SuffixFix
+ *
+ * @author Fabrizio Branca
+ */
+-->
+<config>
+	<modules>
+		<Aoe_SuffixFix>
+			<version>0.0.1</version>
+		</Aoe_SuffixFix>
+	</modules>
+	<global>
+		<helpers>
+			<aoe_suffixfix>
+				<class>Aoe_SuffixFix_Helper</class>
+			</aoe_suffixfix>
+			<catalog>
+				<rewrite>
+					<category>Aoe_SuffixFix_Helper_Category</category>
+					<product>Aoe_SuffixFix_Helper_Product</product>
+				</rewrite>
+			</catalog>
+		</helpers>
+	</global>
+</config>
