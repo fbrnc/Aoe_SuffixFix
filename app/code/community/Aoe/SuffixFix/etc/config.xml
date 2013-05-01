@@ -23,6 +23,11 @@
 					<product>Aoe_SuffixFix_Helper_Product</product>
 				</rewrite>
 			</catalog>
+			<enterprise_catalog>
+				<rewrite>
+					<data>Aoe_SuffixFix_Helper_EnterpriseCatalogHelperData</data>
+				</rewrite>
+			</enterprise_catalog>
 		</helpers>
 	</global>
 </config>
