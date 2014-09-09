@@ -37,9 +37,10 @@ class Aoe_SuffixFix_Helper_EnterpriseCatalogHelperData extends Enterprise_Catalo
      *
      * @param string $requestPath
      * @param int $storeId
+     * @param null $categoryId
      * @return string
      */
-    public function getProductRequestPath($requestPath, $storeId)
+    public function getProductRequestPath($requestPath, $storeId, $categoryId = null)
     {
         if (empty($requestPath)) {
             return '';
