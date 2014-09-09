@@ -29,5 +29,16 @@
 				</rewrite>
 			</enterprise_catalog>
 		</helpers>
+        <models>
+            <aoe_suffixfix>
+                <class>Aoe_SuffixFix_Model</class>
+            </aoe_suffixfix>
+            <sitemap_resource>
+                <rewrite>
+                    <catalog_product>Aoe_SuffixFix_Model_Resource_Catalog_Product</catalog_product>
+                    <catalog_category>Aoe_SuffixFix_Model_Resource_Catalog_Category</catalog_category>
+                </rewrite>
+            </sitemap_resource>
+        </models>
 	</global>
 </config>
