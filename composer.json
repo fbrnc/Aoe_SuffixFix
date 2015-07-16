@@ -13,7 +13,7 @@
       "name": "Fabrizio Branca",
       "email": "firstname.lastname@aoe.com",
       "role": "Author/Maintainer"
-    },
+    }
   ],
   "replace": {
     "fbrnc/aoe_scheduler": "*"
