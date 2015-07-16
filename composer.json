@@ -1,0 +1,21 @@
+{
+  "name": "aoepeople/aoe_suffixfix",
+  "license": "GPL-3.0",
+  "type": "magento-module",
+  "description": "Patch for Suffix handling",
+  "homepage": "https://github.com/AOEpeople/Aoe_SuffixFix",
+  "require": {
+    "php": ">=5.3",
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors": [
+    {
+      "name": "Fabrizio Branca",
+      "email": "firstname.lastname@aoe.com",
+      "role": "Author/Maintainer"
+    }
+  ],
+  "replace": {
+    "fbrnc/aoe_scheduler": "*"
+  }
+}
